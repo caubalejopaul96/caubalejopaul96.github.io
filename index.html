@@ -48,7 +48,7 @@
         </nav>
 
         <header>
-            <div class="row">
+            <!--<div class="row">
 
                 <div class="parallax-container">
                     <div class="parallax"><img src="images/notebook.jpg"></div>
@@ -61,7 +61,157 @@
                     </div>
                 </div>
 
-            </div>
+            </div>-->
+
+            <!--This is the parallax-->
+            <div class="parallax-container valign-wrapper">
+                <div class = "container valign-wrapper">
+                    <div class="row">
+                        <div class="col l12 m6 s12" data-anijs="if: scroll, on: window, do: fadeInLeft animated, before: scrollReveal, after: scrollReveal">
+                            <!--<img class="responsive-img" id = "banner-logo" src = "images/notebook.jpg"/>-->
+                            <h1 class="white-text"><font face="Myriad Pro"><b>XION</b></font></h1>
+                        </div>
+                        <div data-anijs="if: scroll, on: window, do: fadeInRight animated, before: scrollReveal, after: scrollReveal">
+                            <h3 class="white-text"><font face="Brush Script Std">We make wonderful things</font></h3>
+                        </div>
+                        <div class="col l6 m6 s12" data-anijs="if: scroll, on: window, do: fadeInRight animated, before: scrollReveal, after: scrollReveal">
+                            <p class="white-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Fusce volutpat ut erat sed pulvinar. Aenean vitae turpis vel purus semper venenatis. 
+                                Nam elementum ipsum nec finibus tempus. Duis eu lobortis eros.
+                            </p>
+                        </div>
+                        <div class="col l12 m6 s12" data-anijs="if: scroll, on: window, do: fadeInRight animated, before: scrollReveal, after: scrollReveal">
+                            <a class="waves-effect waves-light btn default-button-bgcolor">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "parallax"><img src="images/notebook.jpg"></div>
+            </div> <!--End of parallax-->
+
+            <!--Team and group description content-->
+            <div class="section teal darken-1">
+                <div class="row container">
+                    <div class="col l6 m6 s12">
+                        <div align="right">
+                            <h3 class="header white-text">CREATIVE AND PROFESSIONAL</h3>
+                            <p class="white-text text-darken-3 lighten-3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Fusce volutpat ut erat sed pulvinar. Aenean vitae turpis vel purus semper venenatis. 
+                                Nam elementum ipsum nec finibus tempus. Duis eu lobortis eros.
+
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Fusce volutpat ut erat sed pulvinar. Aenean vitae turpis vel purus semper venenatis. 
+                                Nam elementum ipsum nec finibus tempus. Duis eu lobortis eros.
+                            </p>
+
+                            <p class="white-text text-darken-3 lighten-3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Fusce volutpat ut erat sed pulvinar. Aenean vitae turpis vel purus semper venenatis. 
+                                Nam elementum ipsum nec finibus tempus. Duis eu lobortis eros.
+
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Fusce volutpat ut erat sed pulvinar. Aenean vitae turpis vel purus semper venenatis. 
+                                Nam elementum ipsum nec finibus tempus. Duis eu lobortis eros.
+                            </p>
+
+                            <p class="white-text text-darken-3 lighten-3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Fusce volutpat ut erat sed pulvinar. Aenean vitae turpis vel purus semper venenatis. 
+                                Nam elementum ipsum nec finibus tempus. Duis eu lobortis eros.
+
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Fusce volutpat ut erat sed pulvinar. Aenean vitae turpis vel purus semper venenatis. 
+                                Nam elementum ipsum nec finibus tempus. Duis eu lobortis eros.
+                            </p>
+
+                            <!--Modal trigger-->
+                            <a class="waves-effect waves-light btn default-button-bgcolor" data-target="descriptionModal">Read More</a>
+
+                            <!--Modal Structure-->
+                            <div id="modal1" class="modal modal-fixed-footer">
+                                <div class="modal-content">
+                                    <h4>CREATIVE AND PROFESSIONAL</h4>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Fusce volutpat ut erat sed pulvinar. Aenean vitae turpis vel purus semper venenatis. 
+                                        Nam elementum ipsum nec finibus tempus. Duis eu lobortis eros.
+
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Fusce volutpat ut erat sed pulvinar. Aenean vitae turpis vel purus semper venenatis. 
+                                        Nam elementum ipsum nec finibus tempus. Duis eu lobortis eros.
+
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Fusce volutpat ut erat sed pulvinar. Aenean vitae turpis vel purus semper venenatis. 
+                                        Nam elementum ipsum nec finibus tempus. Duis eu lobortis eros.
+
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Fusce volutpat ut erat sed pulvinar. Aenean vitae turpis vel purus semper venenatis. 
+                                        Nam elementum ipsum nec finibus tempus. Duis eu lobortis eros.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!--<div align="left">
+                            <img src="images/flat-logo.png">
+                        </div>-->
+                    </div>
+
+                    <div class="col l6 m6 s12">
+                        <h3 class="header white-text center-align">OUR TEAM</h3>
+                        <div align="left">
+                        </div>
+
+                        <br>
+                        <br>
+
+                        <!--team cards-->
+                        <div class="card horizontal">
+                            <div class="card-image">
+                                <img src="http://lorempixel.com/100/190/nature/6">
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                    <span class="title"><b>NAME SURNAME</b></span>
+                                    <p>Manager</p>
+                                    <p><i>I am a very simple card. I am good at containing small bits of information.</i></p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">This is a link</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card horizontal">
+                            <div class="card-image">
+                                <img src="http://lorempixel.com/100/190/nature/6">
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                    <span class="title"><b>NAME SURNAME</b></span>
+                                    <p>Manager</p>
+                                    <p><i>I am a very simple card. I am good at containing small bits of information.</i></p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">This is a link</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="waves-effect waves-light btn default-button-bgcolor">Read More</a>
+
+                    </div>
+
+                    <img src="images/flat-logo.png">
+
+                </div><!--End of container-->
+            </div><!--End of team content-->
+
         </header>
 
         <article>

@@ -41,8 +41,18 @@ header{
     background-color : #702633;
 }
 
+.default-button-bgcolor{
+    background-color : #702633;
+}
+
 .parallax-container {
       height: 650px;
+}
+
+.show-background{
+    background-color: #240000;
+    height: 60px;
+    transition: background-color .5s ease-in 0s;
 }
 
 
