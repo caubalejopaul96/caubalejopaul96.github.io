@@ -1,0 +1,49 @@
+/*body{
+    background-image: url("../images/sample.jpg");
+}*/
+
+/*nav {
+    background-color: transparent;
+}*/
+
+/* Nav buttons */
+#nav-social-btn{
+    margin: 0px 5px 0px 5px;
+}
+
+#nav-social-btn-padding{
+    padding-right: 80px;
+}
+
+#nav-btn{
+    margin: 0px 25px 0px 25px;
+}
+
+#nav-btn-padding{
+    padding-left: 50px;
+}
+
+header{
+    z-index: -1;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    overflow-y: visible;
+}
+
+.nav-bar{
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    transition: background-color .5s ease-in 0s;
+}
+
+.nav-home-bgcolor{
+    background-color : #702633;
+}
+
+.parallax-container {
+      height: 650px;
+}
+
+
+
