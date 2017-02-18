@@ -7,6 +7,11 @@
 }*/
 
 /* Nav buttons */
+
+.container{
+    padding-top: 50px;
+}
+
 #nav-social-btn{
     margin: 0px 5px 0px 5px;
 }
@@ -53,6 +58,29 @@ header{
     background-color: #240000;
     height: 60px;
     transition: background-color .5s ease-in 0s;
+}
+
+.testimonial{
+    font-family: serif;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.divider{
+    background-color: #240000;
+}
+
+.thin{
+    font-weight: 200;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.ruby{
+    background-color: #240000;
 }
 
 
