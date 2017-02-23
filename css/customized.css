@@ -7,6 +7,9 @@
 }*/
 
 /* Nav buttons */
+body{
+    font-weight: 200;
+}
 
 .container{
     padding-top: 50px;
@@ -80,8 +83,17 @@ header{
 }
 
 .ruby{
-    background-color: #240000;
+    color: #702633;
 }
+
+.footer-color{
+    background-color:#240000;
+}
+
+nav{
+    z-index: 1000;
+}
+
 
 
 

@@ -2,6 +2,9 @@ $(document).ready(function(){
     $(".button-collapse").sideNav();
     $('.parallax').parallax();
     $('.modal').modal();
+    $('.scrollspy').scrollSpy({
+        scrollOffset: 0
+    });
   })
 
   $(window).scroll(function() {
