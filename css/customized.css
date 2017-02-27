@@ -94,6 +94,65 @@ nav{
     z-index: 1000;
 }
 
+/*fonts*/
+@font-face {
+    font-family: bakery;
+    src: url(fonts/bakery.ttf);
+}
+
+.bakery{
+    font-family: bakery;
+}
+
+@font-face {
+    font-family: angeline-vintage;
+    src: url(fonts/Angeline Vintage_Demo.ttf);
+}
+
+.angeline-vintage{
+    font-family: angeline-vintage;
+}
+
+/*custom modals*/
+#placeholder-navbar {
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    transition: background-color .3s;
+}
+
+nav{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+nav .nav-wrapper{
+    position: relative;
+    height: 100%;
+}
+
+.db{
+    max-width: none;
+}
+
+#placeholder-navbar .back-btn {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+#placeholder-overlay.et {
+    opacity: 1;
+}
+
+#placeholder-overlay {
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity .3s;
+    will-change: opacity;
 
 
 
